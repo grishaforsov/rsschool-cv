@@ -9,7 +9,7 @@ I'm 27 years old and I work as an electric train driver. I want to become a web 
  * CSS (in the process studying)
  * Git (in the process studying)
  * JavaScript (in the process studying)
- # Code Example:
+ ## Code Example:
  ```javascript
  function multiply (a,b) {
      return a * b
