@@ -20,4 +20,6 @@ I'm 27 years old and I work as an electric train driver. I want to become a web 
     * Electric train driver
  * [HTML/CSS (in the process studying)](https://developer.mozilla.org/en-US/)
  * [JavaScript (in the process studying)](https://www.youtube.com/watch?v=CxgOKJh4zWE&t=4509s)
- **English - A2 (in the process studying)**
+
+ ## English:
+ **A2 (in the process studying)**
