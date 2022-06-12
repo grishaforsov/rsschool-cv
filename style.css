@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    background: #0F2E37;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.header {
+    background: #EDDEC7;
+    font-family: 'Kdam Thmor Pro',
+        sans-serif;
+    opacity: 0.7;
+}
+
+.main {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    min-height: 100vh;
+    margin: 0 auto;
+    flex: 1 1 auto;
+    background: #0F2E37;
+    color: #EDDEC7;
+    padding: 20px;
+    font-family: 'Joan', serif;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    background: #EDDEC7;
+    width: 100%;
+    height: 50px;
+    font-family: 'Kdam Thmor Pro',
+        sans-serif;
+    opacity: 0.7;
+}
+
+h1,
+h2 {
+    font-family: 'Kdam Thmor Pro',
+        sans-serif;
+    opacity: 0.7;
+}
+
+.nav-list {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #0F2E37;
+    transition: 0.5s all ease;
+}
+
+.nav-item a:hover {
+    color: #EDDEC7;
+    background: #0F2E37;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s all ease;
+}
+
+.nav-list:first-child {
+    padding-right: 150px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.wrapper-name {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.wrap-name {
+    display: flex;
+    position: relative;
+    height: 150px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.wrap-name h1 {
+    font-size: 40px;
+}
+
+.avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    box-shadow: 0 0 3px black;
+}
+
+.hr-line {
+    margin: 20px 0;
+    height: 10px;
+    border: none;
+    background: linear-gradient(45deg, #0F2E37, #EDDEC7);
+}
+
+.line {
+    margin: 20px 0;
+    height: 2px;
+    border: none;
+    background: #EDDEC7;
+    opacity: 0.3;
+}
+
+
+.logo {
+    height: 45px;
+    transition: 1s all ease;
+}
+
+.text {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    padding-left: 15px;
+    color: #0F2E37;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #0F2E37;
+    transition: 0.5s all ease;
+}
+
+.footer-text a:hover {
+    color: #EDDEC7;
+    background: #0F2E37;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s all ease;
+}
+
+.info {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.wrap {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about-me {
+    width: 50%;
+    height: 150;
+    line-height: 1.4;
+}
+
+.contacts {
+    height: 150px;
+    width: 50%;
+}
+
+.my-contacts {
+    height: 100px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #EDDEC7;
+    transition: 0.5s all ease;
+}
+
+.contacts a:hover {
+    color: #0F2E37;
+    background: #EDDEC7;
+    padding: 2px;
+    border-radius: 5px;
+    transition: 0.5s all ease;
+}
+
+.code-example {
+    width: 50%;
+}
+
+.english {
+    width: 50%;
+}
+
+.education {
+    width: 50%;
+}
+
+.education a {
+    text-decoration: none;
+    color: #EDDEC7;
+    transition: 0.5s all ease;
+}
+
+.education a:hover {
+    color: #0F2E37;
+    background: #EDDEC7;
+    padding: 2px;
+    border-radius: 5px;
+    transition: 0.5s all ease;
+}
