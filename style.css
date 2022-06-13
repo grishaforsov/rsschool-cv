@@ -112,7 +112,7 @@ li {
     position: relative;
     height: 150px;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
