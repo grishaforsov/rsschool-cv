@@ -245,31 +245,31 @@ li {
 
 
 .wrap .e-mail::before {
-    content: url(/Images/envelope-fill.svg);
+    content: url(./Images/envelope-fill.svg);
     vertical-align: middle;
     padding: 0px 5px;
 }
 
 .wrap .github::before {
-    content: url(/Images/github.svg);
+    content: url(./Images/github.svg);
     vertical-align: middle;
     padding: 0px 5px;
 }
 
 .wrap .discord::before {
-    content: url(/Images/discord.svg);
+    content: url(./Images/discord.svg);
     vertical-align: middle;
     padding: 0px 5px;
 }
 
 .wrap .instagram::before {
-    content: url(/Images/instagram.svg);
+    content: url(./Images/instagram.svg);
     vertical-align: middle;
     padding: 0px 5px;
 }
 
 .wrap li::before {
-    content: url(/Images/square-fill.svg);
+    content: url(./Images/square-fill.svg);
     vertical-align: middle;
     padding: 0px 5px;
 }
