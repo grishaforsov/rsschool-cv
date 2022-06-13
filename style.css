@@ -42,6 +42,11 @@ body {
     font-family: 'Joan', serif;
 }
 
+.main li,
+p {
+    opacity: 0.6
+}
+
 footer {
     display: flex;
     position: relative;
@@ -221,7 +226,7 @@ li {
 }
 
 .education {
-    width: 50%;
+    width: 40%;
 }
 
 .education a {
@@ -236,4 +241,109 @@ li {
     padding: 2px;
     border-radius: 5px;
     transition: 0.5s all ease;
+}
+
+
+.wrap .e-mail::before {
+    content: url(/Images/envelope-fill.svg);
+    vertical-align: middle;
+    padding: 0px 5px;
+}
+
+.wrap .github::before {
+    content: url(/Images/github.svg);
+    vertical-align: middle;
+    padding: 0px 5px;
+}
+
+.wrap .discord::before {
+    content: url(/Images/discord.svg);
+    vertical-align: middle;
+    padding: 0px 5px;
+}
+
+.wrap .instagram::before {
+    content: url(/Images/instagram.svg);
+    vertical-align: middle;
+    padding: 0px 5px;
+}
+
+.wrap li::before {
+    content: url(/Images/square-fill.svg);
+    vertical-align: middle;
+    padding: 0px 5px;
+}
+
+
+@media (max-width: 768px) {
+    .main {
+        width: 90%;
+    }
+
+    .wrap-name h1 {
+        font-size: 30px;
+
+    }
+
+    .main h2 {
+        font-size: 22px;
+
+    }
+
+    .main li,
+    p {
+        font-size: 14px;
+    }
+
+
+
+}
+
+@media (max-width: 320px) {
+
+    .main h2 {
+        text-align: center;
+    }
+
+    .main li,
+    p {
+        text-align: center;
+    }
+
+
+    .nav li {
+        display: none;
+    }
+
+    .wrapper-name {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hr-line {
+        height: 2px;
+    }
+
+    .line {
+        height: 0.5px;
+    }
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+        width: 100%
+    }
+
+    .mobile {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 160px;
+    }
+
+    .english {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
