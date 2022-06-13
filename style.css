@@ -275,7 +275,8 @@ li {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 980px),
+(min-width: 669px) {
     .main {
         width: 90%;
     }
@@ -294,12 +295,9 @@ li {
     p {
         font-size: 14px;
     }
-
-
-
 }
 
-@media (max-width: 320px) {
+@media (max-width: 668px) {
 
     .main h2 {
         text-align: center;
